@@ -35,13 +35,13 @@ public class CreateAccountRequest {
   public AccountType getAccountType(){
     return accountType;
   }
-  public void getAccountType( AccountType accountType){
+  public void setAccountType( AccountType accountType){
     this.accountType = accountType;
   }
   public String getCurrency(){
     return currency;
   }
-  public void getCurrency(String currency){
+  public void setCurrency(String currency){
     this.currency = currency;
   }
   

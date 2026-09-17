@@ -20,7 +20,7 @@ public class AccountResponse {
   public AccountResponse() {
     }
 
-    public AccountResponse(UUID id, UUID ownerId, AccountType accountType,
+  public AccountResponse(UUID id, UUID ownerId, AccountType accountType,
                             String currency, String name, Instant createdAt) {
         this.id = id;
         this.ownerId = ownerId;
